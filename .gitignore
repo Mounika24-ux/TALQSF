@@ -1,0 +1,14 @@
+# === Ignore Large Files and Checkpoints ===
+legal-summarizer-final/checkpoint-epoch7.pt
+
+# Ignore .whl files
+*.whl
+
+# Ignore .dll files (common with packages like numpy, torch, scipy)
+*.dll
+
+# Ignore virtual environment folders
+venv/
+__pycache__/
+*.log
+*.tmp
