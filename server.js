@@ -6,9 +6,6 @@ const summaryRoutes = require("./routes/summaryRoutes");
  // your user login/signup routes
 const qaRoutes = require('./routes/qaRoutes');
 
-
-
-
 const app = express();
 app.use(cors());
 app.use(express.json());
